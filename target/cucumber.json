@@ -1,0 +1,416 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Testing Reqres APIS",
+        "description": "",
+        "id": "api-testing;testing-reqres-apis",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3499008300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on requrs website",
+            "match": {
+              "location": "ReqtesTesting.i_am_on_requrs_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 922195600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Get method",
+            "match": {
+              "location": "ReqtesTesting.i_click_on_Get_method()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1837250099,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see response",
+            "match": {
+              "location": "ReqtesTesting.i_should_see_response()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "API Testing",
+    "description": "As a API tester\r\nI want to test Get \u0026 Post methods\r\nSo that I can see the desire method",
+    "id": "api-testing",
+    "keyword": "Feature",
+    "uri": "reqres.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "",
+        "description": "",
+        "id": "api-scenario-outline-testing;;|endpoints|response|;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 87400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on reqres\\.in",
+            "match": {
+              "location": "ReqtesOutlineTesting.i_am_on_reqres_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 43943901,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I type \"\u003cendpoints\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cendpoints\u003e",
+                  "offset": 8
+                }
+              ],
+              "location": "ReqtesOutlineTesting.i_type(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15718501,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I shoud get \"\u003cresponse\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cresponse\u003e",
+                  "offset": 13
+                }
+              ],
+              "location": "ReqtesOutlineTesting.i_shoud_get(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "",
+        "description": "",
+        "id": "api-scenario-outline-testing;;|endpoints|response|;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 62700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on reqres\\.in",
+            "match": {
+              "location": "ReqtesOutlineTesting.i_am_on_reqres_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24275000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I type \"\u003cendpoints\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cendpoints\u003e",
+                  "offset": 8
+                }
+              ],
+              "location": "ReqtesOutlineTesting.i_type(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 877600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I shoud get \"\u003cresponse\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cresponse\u003e",
+                  "offset": 13
+                }
+              ],
+              "location": "ReqtesOutlineTesting.i_shoud_get(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "",
+        "description": "",
+        "id": "api-scenario-outline-testing;;|endpoints|response|;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 76600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on reqres\\.in",
+            "match": {
+              "location": "ReqtesOutlineTesting.i_am_on_reqres_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30051300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I type \"\u003cendpoints\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cendpoints\u003e",
+                  "offset": 8
+                }
+              ],
+              "location": "ReqtesOutlineTesting.i_type(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1229999,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I shoud get \"\u003cresponse\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cresponse\u003e",
+                  "offset": 13
+                }
+              ],
+              "location": "ReqtesOutlineTesting.i_shoud_get(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "",
+        "description": "",
+        "id": "api-scenario-outline-testing;;|endpoints|response|;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 45600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on reqres\\.in",
+            "match": {
+              "location": "ReqtesOutlineTesting.i_am_on_reqres_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24628800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I type \"\u003cendpoints\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cendpoints\u003e",
+                  "offset": 8
+                }
+              ],
+              "location": "ReqtesOutlineTesting.i_type(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 779101,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I shoud get \"\u003cresponse\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cresponse\u003e",
+                  "offset": 13
+                }
+              ],
+              "location": "ReqtesOutlineTesting.i_shoud_get(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "",
+        "description": "",
+        "id": "api-scenario-outline-testing;;|endpoints|response|;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 52999,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on reqres\\.in",
+            "match": {
+              "location": "ReqtesOutlineTesting.i_am_on_reqres_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27661201,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I type \"\u003cendpoints\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cendpoints\u003e",
+                  "offset": 8
+                }
+              ],
+              "location": "ReqtesOutlineTesting.i_type(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 741801,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I shoud get \"\u003cresponse\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cresponse\u003e",
+                  "offset": 13
+                }
+              ],
+              "location": "ReqtesOutlineTesting.i_shoud_get(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "",
+        "description": "",
+        "id": "api-scenario-outline-testing;;|endpoints|response|;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 38399,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on reqres\\.in",
+            "match": {
+              "location": "ReqtesOutlineTesting.i_am_on_reqres_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21540400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I type \"\u003cendpoints\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cendpoints\u003e",
+                  "offset": 8
+                }
+              ],
+              "location": "ReqtesOutlineTesting.i_type(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3138799,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I shoud get \"\u003cresponse\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cresponse\u003e",
+                  "offset": 13
+                }
+              ],
+              "location": "ReqtesOutlineTesting.i_shoud_get(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "API Scenario Outline Testing",
+    "description": "\r\nAs a API Tester\r\nI want to test Scenario Outline\r\nSo that I can test multiple APIs",
+    "id": "api-scenario-outline-testing",
+    "keyword": "Feature",
+    "uri": "reqresOutline.feature"
+  }
+]
